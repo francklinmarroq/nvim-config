@@ -6,9 +6,9 @@ set splitbelow
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set ignorecase
-set smartcase
-set incsearch
+
+
+
 set diffopt+=vertical
 set hidden
 set nobackup
@@ -32,11 +32,4 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-
-"remaps
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggl;::e<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
-"autocommands
 
