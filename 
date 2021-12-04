@@ -1,0 +1,20 @@
+"native
+inoremap <c-s> <esc>:w<c-o><CR>
+nnoremap <c-q> :q!<CR>
+nnoremap <c-w> :wq<CR>
+
+"nertdtree
+map <Leader>b :NERDTreeToggle<CR>
+map <Leader>f :NERDTreeFocus<CR>
+
+
+"neoterm
+nnoremap <Leader>t :Ttoggle<cr>
+inoremap <c-t> <esc>:Ttoggle<cr>
+tnoremap <c-t> <c-\><c-n>:Ttoggle<cr>
+
+"navigation
+nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
+nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
+nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
+nnoremap <silent> <c-l> :TmuxNavigateRight<cr>

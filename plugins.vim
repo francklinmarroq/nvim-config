@@ -14,7 +14,7 @@ Plug 'https://github.com/preservim/nerdtree.git'
 "typing helpers
 Plug 'https://github.com/jiangmiao/auto-pairs.git'
 Plug 'https://github.com/alvan/vim-closetag.git'
-Plug 'https://github.com/tpope/vim-surround.git'
+"Plug 'https://github.com/tpope/vim-surround.git'
 
 "tmux and terminal
 Plug 'https://github.com/preservim/vimux.git'
@@ -22,18 +22,18 @@ Plug 'https://github.com/christoomey/vim-tmux-navigator.git'
 Plug 'kassio/neoterm'
 
 "autocomplete
-Plug 'https://github.com/SirVer/ultisnips.git'
+"Plug 'https://github.com/SirVer/ultisnips.git'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "ide
 Plug 'https://github.com/editorconfig/editorconfig-vim.git'
-Plug 'junegunn/fzf'
-Plug 'junegunn/fzf.vim'
-Plug 'terryma/vim-multiple-cursors'
+"Plug 'junegunn/fzf'
+"Plug 'junegunn/fzf.vim'
+"Plug 'terryma/vim-multiple-cursors'
 Plug 'mhinz/vim-signify'
 Plug 'Yggdroot/indentLine'
-Plug 'preservim/nerdcommenter'
-Plug 'sbdchd/neoformat'
+"Plug 'preservim/nerdcommenter'
+"Plug 'sbdchd/neoformat'
 
 
 "git
