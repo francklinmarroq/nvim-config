@@ -1,5 +1,6 @@
 set completeopt=menuone,noinsert,noselect
 set number
+set relativenumber
 set mouse=a
 set splitright
 set splitbelow
@@ -24,12 +25,15 @@ so ~/.config/nvim/maps.vim
 
 
 "color
-colorscheme gruvbox
-let g:gruvbox_contrast_dark="hard"
+colorscheme github_dark_high_contrast
 highlight Normal ctermbg=NONE
 set laststatus=2
 set noshowmode
 set bg=dark
+
+"Airline
+let g:airline_powerline_fonts = 1 
+let g:airline_theme='distinguished'
 
 "search
 set hlsearch

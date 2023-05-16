@@ -7,7 +7,8 @@ Plug 'https://github.com/vim-airline/vim-airline.git'
 
 "themes
 Plug 'https://github.com/morhetz/gruvbox.git'
-
+Plug 'projekt0n/github-nvim-theme'
+Plug 'vim-airline/vim-airline-themes'
 "file tree
 Plug 'https://github.com/preservim/nerdtree.git'
 
@@ -16,9 +17,7 @@ Plug 'https://github.com/jiangmiao/auto-pairs.git'
 Plug 'https://github.com/alvan/vim-closetag.git'
 "Plug 'https://github.com/tpope/vim-surround.git'
 
-"tmux and terminal
-Plug 'https://github.com/preservim/vimux.git'
-Plug 'https://github.com/christoomey/vim-tmux-navigator.git'
+"terminal
 Plug 'kassio/neoterm'
 
 "autocomplete
