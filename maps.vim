@@ -16,7 +16,6 @@ inoremap <F4> <esc>:Ttoggle<cr>
 tnoremap <F4> <c-\><c-n>:Ttoggle<cr>
 
 "navigation
-nnoremap <silent> <c-4> :TmuxNavigateLeft<cr>
-nnoremap <silent> <c-j> :TmuxNavigateDown<cr>
-nnoremap <silent> <c-k> :TmuxNavigateUp<cr>
-nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
+
+" Map Tab key to trigger autocompletion
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
